@@ -1,9 +1,79 @@
----
-layout: base
----
+<!DOCTYPE html>
+<html>
+  <style>
+    .words {
+         }
+    .link {
+         color: gold;
+         }
+    html {
+         # display: flex;
+         align-items: center;
+         justify-content: center;
+         }
+    html, body {
+        font-size: 100%;
+        background-color: rgb(50, 50, 50);
+        font-family: Arial, Helvetica, sans-serif;
+        max-width: 800px;
+        }
+    .vertical_pad {
+            padding: 70px 0;
+            }
+    .center {
+            margin: auto auto;
+            width: 100%;
+            border: 1px solid rgb(220, 220, 220);
+            padding: 0px 0;
+            }
+    h1 {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 190%;
+        border-bottom-color: rgb(220, 220, 220);
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        margin-left: 10px;
+        margin-right: 10px;
+        color: rgb(240, 240, 240);
+       }
+    h2, h3, h4, h5, p {
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 10px;
+        margin-right: 10px;
+        color: rgb(240, 240, 240);
+        }
+    h1 { font-size: 190%; }
+    h2 { font-size: 170%; }
+    h3 { font-size: 150%; }
+    h4 { font-size: 130%; }
+    h5 { font-size: 110%; }
+    ul { font-size: 100%; }
+    li { font-size: 110%; }
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        }
+    p  { font-size: 110%; }
 
-<div class="intro-header"></div>
-
-<div role="main" class="container">
-  {{ content }}
-</div>
+  </style>
+  <body>
+    <div class = "vertical_pad">
+    <div class = "center">
+    <img
+      src = "img/golden_building_near_dark_green_trees.jpg"
+      width = "800"
+      height = "200"
+    />
+    <h1>Samir Gadkari</h1>
+    <h2>Machine Learning Engineer in search of problems to solve</h2>
+    <h3>Software/Firmware Engineer for 20 years. Bringing the same problem solving skills to the data world.</h3>
+    <h5>physically in Silicon Valley</h5>
+    <h5>electronically at</h5>
+    <p><a class = "link" href="https://github.com/samirgadkari">github</a></p>
+    <p>email: <span>samir.gadkari@gmail.com</span></p>
+    </div>
+    </div>
+  </body>
+</html>
